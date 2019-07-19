@@ -1,7 +1,7 @@
 def find_element_index(arr, value_to_find)
     counter = 0
     while counter<=arr.length do
-      arr[value_to_find]
+      index_of_value = arr.find_index(value_to_find)
       counter += 1
     end
     return index_of_value
